@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000000;
+}
+a{
+	text-decoration: none;
+}
+.html{
+	font-size: 100px;
+}
+/*顶部开始*/
+.top{
+	width: 100%;
+	height: auto;
+	background: #f8f8f8;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top .tu{
+	width: 2.67rem;
+	height: 0.61rem;
+	margin-top:0.27rem;
+	margin-left: 3.31rem;
+	background-image: url(../img/index/1.png);
+	background-size:cover;
+}
+.top .fenlei{
+	width: 100%;
+	height: 0.5rem;
+	background: black;
+	display: flex;
+/*	flex-wrap: wrap;*/
+	justify-content: space-around;
+	margin-top:0.2rem;
+}
+.top .fenlei .bj{
+	width: 10.55rem;
+	height: 0.5rem;
+	background: black;
+	margin-left: 1.8rem;
+	display: flex;
+/*	flex-wrap: wrap;*/
+	flex-direction: row;
+}
+.top .fenlei .bj a{
+	width: 1.32rem;
+	height: 0.5rem;
+	display: block;
+	margin-left: 0.5rem;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: white;
+}
+.top .fenlei .bj a:nth-of-type(4){
+	margin-left: 0rem;
+	background: white;
+	color: black;
+}
+/*顶部结束*/
+.datu{
+	/*display: block;*/
+	width: 100%;
+	height: 3rem;
+	background-image: url(../img/cwhl/1.jpg);
+/*	background-size:cover;*/
+	background-position: 50% 50%;
+}
+/*中开始*/
+.zhong{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.zhong .bj{
+	width: 10rem;
+	height: 3.90rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.zhong .bj .left{
+	width: 5.67rem;
+	height: 3.90rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0.1rem;
+	box-sizing: border-box;
+}
+.zhong .bj .left .kuai{
+	display: block;
+	width: 2.56rem;
+	height: 1.80rem;
+}
+.zhong .bj .left .kuai .tu{
+	width: auto;
+	height: auto;
+}
+.zhong .bj .left .kuai .tu img{
+	display: block;
+	width: 2.56rem;
+	height: 1.40rem;
+}
+.zhong .bj .left .kuai .zi{
+	width: 100%;
+	height: 0.192rem;
+	margin-top: 0.16rem;
+	font-size: 0.16rem;
+	text-align: center;
+}
+
+.zhong .bj .right{
+	width: 4.28rem;
+	height: 3.80rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.zhong .bj .right .kuai2{
+	width: 4.08rem;
+	height: 0.38rem;
+	margin-left: 0.07rem;
+	border-bottom: 0.01rem dashed black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.zhong .bj .right .kuai2:nth-of-type(9){
+	border-bottom: 0;
+}
+.zhong .bj .right .kuai2 .zi{
+	display: block;
+	font-size: 0.14rem;	
+}
+.zhong .bj .right .kuai2 .sj{
+	display: block;
+	font-size: 0.14rem;	
+}
+/*底部开始*/
+.bottom{
+	width: 100%;
+	height: 1.22rem;
+	background: black;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bottom .zhong4{
+	width: 10rem;
+	height: 0.96rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2{
+	width: 100%;
+	height: 0.256rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2 .left{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.bottom .zhong4 .kuai2 .right1 p{
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right a{
+	width: 0.52rem;
+	height: 0.168rem;
+	display: block;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.168rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right .shu{
+	font-size: 0.12rem;
+	margin-bottom: 0.03rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi3{
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi4{
+	width: 0.71rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi4 i{
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2 .right2 .zi5{
+	width: 0.34rem;
+	height: 100%;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi7{
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi6{
+	color: #545454; 
+}

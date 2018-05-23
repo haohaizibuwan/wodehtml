@@ -1,0 +1,25 @@
+/*响应式*/
+/*@media screen and (min-width:1024px ) {
+	.top{
+		width: 90%;
+	}
+	.top .fenlei{
+		width: 90%;
+	}
+}
+@media screen and (min-width:768px ) {
+	.top{
+		width: 60%;
+	}
+	.top .fenlei{
+		width: 60%;
+	}
+}
+@media screen and (min-width:320px ) {
+	.top{
+		width: 30%;
+	}
+	.top .fenlei{
+		width: 30%;
+	}
+}*/

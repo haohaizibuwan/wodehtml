@@ -1,0 +1,346 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #000000;
+}
+a{
+	text-decoration: none;
+}
+.html{
+	font-size: 100px;
+}
+body{
+	background: #f8f8f8;
+}
+
+
+/*顶部开始*/
+.top{
+	width: 100%;
+	height: auto;
+	background: #f8f8f8;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top .tu{
+	width: 2.67rem;
+	height: 0.61rem;
+	margin-top:0.27rem;
+	margin-left: 3.31rem;
+	background-image: url(../img/index/1.png);
+	background-size:cover;
+}
+.top .fenlei{
+	width: 100%;
+	height: 0.5rem;
+	background: black;
+	display: flex;
+/*	flex-wrap: wrap;*/
+	justify-content: space-around;
+	margin-top:0.2rem;
+}
+.top .fenlei .bj{
+	width: 10.55rem;
+	height: 0.5rem;
+	background: black;
+	margin-left: 1.8rem;
+	display: flex;
+/*	flex-wrap: wrap;*/
+	flex-direction: row;
+}
+.top .fenlei .bj a{
+	width: 1.32rem;
+	height: 0.5rem;
+	display: block;
+	margin-left: 0.5rem;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: white;
+}
+.top .fenlei .bj a:nth-of-type(6){
+	margin-left: 0rem;
+	background: white;
+	color: black;
+}
+/*顶部结束*/
+.datu{
+	/*display: block;*/
+	width: 100%;
+	height: 3rem;
+	background-image: url(../img/cwhl/1.jpg);
+/*	background-size:cover;*/
+	background-position: 50% 50%;
+}
+/*留言开始*/
+.liuyan{
+	width: 10rem;
+	height: 5.5rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+	padding: 0.1rem 0.2rem;
+	box-sizing: border-box;
+}
+.liuyan .top{
+	width: 100%;
+	height: 0.3rem;
+	font-size: 0.12rem;
+	line-height: 0.3rem;
+	margin-left: 0.1rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong{
+	width: 100%;
+	height: 6rem;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.liuyan .zhong .dakuai{
+	width: 100%;
+	height: 0.33rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.3rem;
+}
+.liuyan .zhong .dakuai .kuai{
+	width: 3.3rem;
+	height: 0.33rem;
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.2rem;
+
+}
+.liuyan .zhong .dakuai .kuai .xm{
+	font-size: 0.14rem;
+	line-height: 0.33rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong .dakuai .kuai1{
+	width: 3.3rem;
+	height: 0.33rem;
+	display: flex;
+	flex-direction: row;
+}
+.liuyan .zhong .dakuai .kuai1 .yx{
+	font-size: 0.14rem;
+	line-height: 0.33rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong .kuai2 {
+	width: 3.3rem;
+	height: 0.33rem;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+}
+.liuyan .zhong .kuai2 .dh{
+	font-size: 0.14rem;
+	line-height: 0.33rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong .kuai3{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.liuyan .zhong .kuai3 .nr{
+	font-size: 0.14rem;
+	line-height: 0.8rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong .kuai3 > textarea{
+	width: 5.60rem;
+	height: 0.8rem;
+}
+.liuyan .zhong .kuai4{
+	width: 100%;
+	height: 0.33rem;
+	display: flex;
+	flex-direction: row;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+}
+.liuyan .zhong .kuai4 .yzm{
+	font-size: 0.14rem;
+	line-height: 0.33rem;
+	color: #666;
+	font-family: "微软雅黑","宋体";
+}
+.liuyan .zhong .kuai4 > a{
+	margin-left: 0.1rem;
+}
+.liuyan .zhong .kuai4 > a >img{
+	display: block;
+	width: 0.8rem;
+	height: 0.24rem;
+	margin-top: 0.05rem;
+}
+.liuyan .zhong .tijiao{
+	display: block;
+	width: 2.40rem;
+	height: 0.44rem;
+	color: #f8f8f8;
+	font-size: 0.2rem;
+	line-height: 0.44rem;
+	text-align: center;
+	margin-left: 0.5rem;
+	margin-top: 0.2rem;
+	border-radius: 0.05rem;
+}
+.liuyan .zhong .liuyan{
+	width: 0.7rem;
+	height: 0.33rem;
+	font-size: 0.12rem;
+	position: absolute;
+	left: 0.1rem;
+	top: 3.5rem;
+}
+.liuyan .zhong .kuai5{
+	width: 100%;
+	height: 0.82rem;
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-top:0.01rem solid black;
+}
+.liuyan .zhong .kuai5 .tu{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-image: url("../img/zxly/2.png");
+}
+.liuyan .zhong .kuai5 .you{
+	width: 100%;
+	height: 0.5rem;
+	margin-left: 0.2rem;
+}
+.liuyan .zhong .kuai5 .you .top1{
+	width: 100%;
+	height: 0.25rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.liuyan .zhong .kuai5 .you .top1 > span{
+	display: block;
+	font-size: 0.12rem;
+}
+.liuyan .zhong .kuai5 .you .bottom1{
+	width: 100%;
+	height: 0.25rem;
+	font-size: 0.12rem;
+	line-height: 0.25rem;
+}
+/*底部开始*/
+.bottom{
+	width: 100%;
+	height: 1.22rem;
+	background: black;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.6rem;
+}
+.bottom .zhong4{
+	width: 10rem;
+	height: 0.96rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2{
+	width: 100%;
+	height: 0.256rem;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2 .left{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.bottom .zhong4 .kuai2 .right1 p{
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right a{
+	width: 0.52rem;
+	height: 0.168rem;
+	display: block;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.168rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right .shu{
+	font-size: 0.12rem;
+	margin-bottom: 0.03rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi3{
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi4{
+	width: 0.71rem;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi4 i{
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2{
+	width: 2.70rem;
+	height: 100%;
+	font-size: 0.13rem;
+	line-height: 0.256rem;
+	color: #545454;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.bottom .zhong4 .kuai2 .right2 .zi5{
+	width: 0.34rem;
+	height: 100%;
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi7{
+	color: #545454;
+}
+.bottom .zhong4 .kuai2 .right2 .zi6{
+	color: #545454;
+}
